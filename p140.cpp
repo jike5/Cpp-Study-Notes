@@ -25,7 +25,7 @@ public:
 
 void test1()
 {
-    Animal * animal = new Cat;
+    Animal * animal = new Cat("Tom");
     animal->speak();
 }
 
