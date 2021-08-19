@@ -1,11 +1,19 @@
 #include<iostream>
 #include<string>
-#include<deque>
+#include<vector>
 #include<algorithm>
 using namespace std;
 
 int main(){
-    cout << rand() << endl;
+    vector<int> v;
+    for (int i = 0; i < 10; i++)
+    {
+        v.push_back(i);
+    }
+    for (auto p : v)
+    {
+        cout << p << endl;
+    }
     system("pause");
     return 0;
 }
